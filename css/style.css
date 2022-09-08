@@ -1,6 +1,4 @@
-body,
-header,
-main {
+body {
     border: 3px, red solid;
     min-height: 50px;
     margin: 0.5rem;
