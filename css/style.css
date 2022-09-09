@@ -1,5 +1,76 @@
-body {
-    border: 3px, red solid;
+* {
+    /* padding:0; */
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1rem;
+    height: 100%;
+}
+
+body,
+header,
+main,
+footer {
+    border: 3px red solid;
+    min-height: 50px;
+    margin: 0.5rem;
+    min-height: 200px;
+}
+
+main {
+    min-height: 200px;
+    overflow: auto;
+    /* El overflow en auto. es una regla  que opera con el  desbordamiento.  */
+}
+
+
+/* contenido ppal */
+
+main>div {
+    /* los hijos "div" directos de un main, tendran este estilo. No se le aplica una clase */
+    border: 2px blue solid;
+    min-height: 100px;
+    margin: 0.5rem;
+    height: auto;
+    float: left;
+    width: 65%;
+}
+
+main>aside {
+    /* los hijos "div" directos de un main, tendran este estilo. No se le aplica una clase */
+    border: 2px blue solid;
+    min-height: 100px;
+    min-width: 30%;
+    margin: 0.5rem;
+    float: left;
+}
+
+.Secciones {
+    border: 2px green solid;
     min-height: 50px;
     margin: 0.5rem;
 }
+
+.Secciones article {
+    border: 2px purple solid;
+    margin: 0.5rem;
+    min-height: 20px;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+}
+
+#gif-ppal {
+    width: 100%;
+}
+
+
+/* .contenido-sec {
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+} */
