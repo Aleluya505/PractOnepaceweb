@@ -82,6 +82,12 @@ img {
     object-fit: contain;
 }
 
+.header-logo {
+    height: 25%;
+    width: 25%;
+    object-fit: scale-down;
+}
+
 #gif-ppal {
     width: 100%;
 }
