@@ -25,7 +25,7 @@ body {
 
 header {
     background: beige;
-    box-shadow: 0 0 0.5rem rgb(83 78 76);
+    box-shadow: 0 0 0.5rem rgb(83 78 76/ 50%);
 }
 
 footer {
@@ -73,6 +73,9 @@ main>aside {
     min-height: 20px;
 }
 
+
+/* Modif de ajuste de img a la pantalla. Lo googlee */
+
 img {
     height: 50%;
     width: 50%;
@@ -89,3 +92,32 @@ img {
     width: 50%;
     object-fit: contain;
 } */
+
+
+/* logo y menu */
+
+.header-logo {
+    width: auto;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.header-menubar {
+    left: auto;
+    position: relative;
+    top: auto;
+    width: auto;
+    display: inline-block;
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.header-menubar ul {
+    list-style: none;
+}
+
+.header-menubar li {
+    float: left;
+    font-weight: 700;
+    text-align: center;
+    /* padding: 0.5rem; */
+}
